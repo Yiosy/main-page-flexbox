@@ -1,7 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
+
 }
 /* header */
 .header {
@@ -132,4 +131,15 @@ align-self: flex-end;
 }
 .button-ad {
 border: white solid 2px;
+}
+/* quote */
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
 }

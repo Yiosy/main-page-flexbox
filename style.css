@@ -73,6 +73,7 @@ ul {
     padding-left: 40px; 
 }
 /* hero */
+/* info */
 .information-header {
     text-align: center;
     padding: 30px;
@@ -89,7 +90,26 @@ ul {
 }
 .text {
     text-align: center;
+    margin-bottom:50px;
 }
 .info {
     max-width: 200px;
+}
+/* info */
+/* quote */
+.quote-main {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+}
+.quote{
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-top: ;
+
+}
+.quotee {
+    display: flex;
 }

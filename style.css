@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 /* header */
 .header {
@@ -36,6 +38,7 @@ ul {
     display: flex;
 }
 /* header */
+/* hero */
 .hero{
     background-color:#1F2937; ;
     padding: 80px 150px;
@@ -67,6 +70,12 @@ ul {
 .image {
     display: flex;
     align-items: center;
-    padding-left: 40px;
-    
+    padding-left: 40px; 
+}
+/* hero */
+.information {
+    display: flex;
+}
+.information-header {
+text-align: center;
 }

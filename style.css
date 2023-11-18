@@ -57,7 +57,7 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
 }
-.button {
+.button, .button-ad {
     border: none;
     color: white;
     font-weight: 1000;
@@ -119,4 +119,17 @@ ul {
     font-size: 28px;
     display: flex;
 align-self: flex-end;
+}
+/* quote */
+.ad {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3b82f6;
+    margin: 60px 150px 60px 150px;
+    padding: 40px 100px  40px 100px;
+    border-radius: 8px;
+}
+.button-ad {
+border: white solid 2px;
 }

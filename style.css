@@ -75,7 +75,7 @@ ul {
 /* hero */
 .information-header {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     font-size: 36px;
     font-weight: 1000;
     color: #1F2937;
@@ -83,8 +83,12 @@ ul {
 .information {
     display: flex;
     margin:10px 200px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap:40px
+}
+.text {
+    text-align: center;
 }
 .info {
     max-width: 200px;

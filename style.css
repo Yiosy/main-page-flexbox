@@ -31,3 +31,24 @@ ul {
     margin: 0;
     display: flex;
 }
+.hero{
+    background-color:#1F2937; ;
+    display: flex;
+    padding: 150px;
+
+}
+.hero-main {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+}
+.button {
+background-color: ;
+}

@@ -1,7 +1,7 @@
 body {
-    display: flex;
-    flex-flow:column
+    font-family: 'Roboto', sans-serif;
 }
+/* header */
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -12,9 +12,11 @@ body {
     align-items: center;
     padding:10px 150px;
     flex-shrink: 0;
+font-weight: 1000;
 }
 .link-header {
     display: flex;
+    font-weight: 500;
 }
 a {
     text-decoration: none;
@@ -33,37 +35,30 @@ ul {
     margin: 0;
     display: flex;
 }
+/* header */
 .hero{
     background-color:#1F2937; ;
-    display: flex;
     padding: 150px;
-    flex-direction: column;
 
 }
 .hero-main {
     font-size: 48px;
     font-weight: 1000;
     color: #F9FAF8;
-    display: flex;
-    justify-content: flex-start;
-
 }
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
-    display: flex;
 }
 .button {
     border: none;
     border-radius: 8px;
     background:#3882f6;;
-    display: flex;
-    align-self: flex-start;
     
 }
-img {
-    display: flex;
-    align-self: center;
+.image {
+    display: block;
+    align-self: flex-end;
     justify-content: center;
     
 }

@@ -73,9 +73,19 @@ ul {
     padding-left: 40px; 
 }
 /* hero */
+.information-header {
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    }
 .information {
     display: flex;
+    margin:10px 200px;
+    justify-content: space-between;
+    align-items: center;
 }
-.information-header {
-text-align: center;
+.info {
+    max-width: 200px;
 }

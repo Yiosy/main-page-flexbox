@@ -1,22 +1,33 @@
 body {
-    
 }
 .header {
     background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding:0 150px;
+    flex-shrink: 0;
 }
 .link-header {
     display: flex;
 }
 a {
     text-decoration: none;
+    color:#E5E7EB;
+    font-size: 18px;
+    padding: 8px;
+
 }
 li {
     list-style-type: none;
+    
+    
 }
 ul {
     padding: 0;
     margin: 0;
+    display: flex;
 }
